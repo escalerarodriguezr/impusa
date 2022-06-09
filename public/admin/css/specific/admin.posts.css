@@ -1,0 +1,31 @@
+/* POSTS */
+
+/* Columnas */
+
+th[data-name="status"] {
+	width: 120px;
+}
+
+.post-status {
+	font-weight: bold;
+}
+.post-status.published {
+	color: #46be8a;
+}
+.post-status.programmed {
+	color: #0098b1;
+}
+
+.post-preview {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+
+#panel-actions .list-group-item {
+	padding: .75rem 0.5rem;
+}
+input#programmed_date {
+	width: 120px;
+	border: none;
+}

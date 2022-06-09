@@ -1,0 +1,75 @@
+/* LISTADOS */
+
+.section-list {
+	padding-bottom: 15px;
+}
+
+.section-list .panel-heading {
+	padding: 22px 25px 0px 25px;
+}
+
+.section-list .advanced-search-panel {
+	margin: 20px 25px 0 25px;
+	padding: 20px 25px 10px 25px;
+	border-radius: 6px;
+	background: #f6f6f6;
+}
+
+.section-list .items-list {
+	margin-top: 30px;
+}
+
+.section-list .advanced-search-button i {
+	transition: 0.3s ease-in-out;
+}
+
+.table-empty {
+	font-size: 16px;
+}
+
+/* Columnas */
+
+th[data-name="id"] {
+	width: 90px;
+}
+th[data-name="created_at"] {
+	width: 140px;
+}
+th[data-name="active"] {
+	width: 80px;
+}
+th[data-name="actions"] {
+	width: 118px;
+}
+
+/* FORMULARIOS */
+
+/* Multilang */
+
+.locale-tabs .nav-tabs i {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 7px;
+	border-radius: 100%;
+}
+.locale-tabs .nav-tabs a i {
+	color: #ffffff !important;
+}
+.locale-tabs .nav-tabs i.ok {
+	background-color: #4CAF50 !important;
+}
+.locale-tabs .nav-tabs i.notok {
+	background-color: #FF9800 !important;
+}
+
+/* File upload */
+
+div.upload-info {
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 8px 15px;
+	border-radius: 6px;
+	background: #f5f5f5;
+	color: #999999;
+	font-size: 12px;
+}

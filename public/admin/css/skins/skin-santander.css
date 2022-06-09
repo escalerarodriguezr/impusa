@@ -1,0 +1,133 @@
+/* SKIN ADMIN ISBUT */
+
+/* General */
+
+a {
+	color: #ec0000;
+}
+a:hover {
+	color: #d20606;
+	text-decoration: underline;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+	border-color: #ec0000;
+	background: #ec0000;
+}
+.btn-primary:hover {
+	border-color: #c90212;
+	background: #c90212;
+}
+.btn-primary[disabled],
+.btn-primary[disabled]:hover {
+	border-color: #c90212;
+	background: #c90212;
+}
+
+/* Login */
+
+.page-login {
+	background-image: url("../../images/login-bkg-santander.jpg");
+}
+.page-login .brand {
+	background: #ec0000;
+	padding: 20px 0px 25px 0px;
+}
+.page-login .brand h1 {
+	width: 200px;
+	height: 36px;
+	margin: 0px auto;
+	background-image: url("../../images/login-logo-santander.png"); 
+}
+.page-login form .form-material label {
+  font-weight: 300;
+  color: #a3afb7;
+}
+.form-material .form-control:focus ~ .floating-label, 
+.form-material .form-control.focus ~ .floating-label {
+	color: #ec0000;
+}
+.form-material .form-control, 
+.form-material .form-control:focus, 
+.form-material .form-control.focus {
+	background-image: linear-gradient(#ec0000, #ec0000), linear-gradient(#e0e0e0, #e0e0e0);
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before, 
+.checkbox-primary input[type="radio"]:checked + label::before {
+	background-color: #ec0000;
+	border-color: #ec0000;
+}
+.page-login .page-copyright {
+  color: #ffffff;
+}
+
+/* Overlay */
+
+.loader-overlay {
+	background: #f6f6f6;
+}
+.loader-content h2 {
+	color: #bbbbbb;
+}
+.loader-index {
+	color: #bbbbbb !important;
+}
+
+/* CABECERA */
+
+.site-navbar {
+	background-color: #ffffff;
+}
+.navbar-brand a {
+	color: #ffffff;
+}
+.navbar-brand a:hover {
+	color: #ffffff;
+}
+.navbar-brand a .navbar-brand-img {
+	width: 37px;
+	height: 36px;
+	margin-top: 8px;
+	background-image: url("../../images/logo-small-santander.png");
+}
+.navbar-brand a .navbar-brand-text {
+	width: 163px;
+	height: 49px;
+	margin-top: 0px;
+	background-image: url("../../images/logo-app-santander.png");
+}
+.navbar-default .hamburger::before, 
+.navbar-default .hamburger .hamburger-bar, 
+.navbar-default .hamburger::after {
+	background: #ec0000;
+}
+.navbar-avatar {
+	color: #ec0000 !important;
+}
+.navbar-avatar small {
+	color: #ec0000 !important;
+	opacity: 0.6;
+}
+
+/* Tablas / Footable */
+
+.footable .pagination > .active > a, 
+.footable .pagination > .active > a:focus, 
+.footable .pagination > .active > a:hover, 
+.footable .pagination > .active > span, 
+.footable .pagination > .active > span:focus, 
+.footable .pagination > .active > span:hover {
+	background-color: #fb4516;
+	border-color: #fb4516;
+}
+
+/* screeLock */
+
+div.screenLock {
+	background: rgba(0,0,0,.4);
+}
+div.screenLock p {
+	color: white;
+}

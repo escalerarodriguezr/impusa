@@ -1,0 +1,62 @@
+.pwdwidgetdiv {
+	width:100%;
+	clear: both;
+	display: block;
+	float: left;
+}
+.pwdfield {
+	width:100%;
+	padding-right: 50px;
+}
+.pwdopsdiv {
+	display: block;
+	float: left;
+	margin-right:15px;	
+}
+.pwdopsdiv a {
+	font-size : 14px; 
+	color: #7d7d7d;
+}
+
+.pwdstrengthbar {
+	float:right;
+	background:#cccccc;
+	height:10px;
+	margin:0;
+	border-radius: 5px;
+}
+
+.pwdstrength {
+	float:right; 
+	height:20px;
+	width:180px;
+	margin-top:5px;
+
+}
+.pwdstrengthstr {
+    float:right;
+	clear:both;
+	height:14px;
+	margin-top:2px;
+	font-size : 12px; 
+
+}
+/*Cambios*/
+.pwdwidgetdiv .bg_box {
+	display: block;
+	width: 100%;
+	float: left;
+	border-radius: 5px;	
+	background-color: #ddd;
+}
+.pwdshowbutton {
+	position: absolute;
+	top: 25px;
+	right: 16px;
+	background-color: #fafbfc;
+	text-align: center;
+	padding: 6px 13px;
+	color: #555;
+	border-left: 1px solid #e4e5e7;
+	border-radius: 0 2px 2px 0;
+}

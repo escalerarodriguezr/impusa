@@ -1,0 +1,121 @@
+/* SKIN ADMIN ISBUT */
+
+/* General */
+
+a {
+	color: #fb4516;
+}
+a:hover {
+	color: #DC3C13;
+	text-decoration: underline;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+	border-color: #fb4516;
+	background: #fb4516;
+}
+.btn-primary:hover {
+	border-color: #fb6A45;
+	background: #fb6A45;
+}
+.btn-primary[disabled],
+.btn-primary[disabled]:hover {
+	border-color: #fbae9a;
+	background: #fbae9a;
+}
+
+/* Login */
+
+.page-login {
+	background-image: url("../../images/login-bkg-isbut.jpg");
+}
+.page-login .brand {
+	background: #fb4516;
+	padding: 15px 0px 18px 0px;
+}
+.page-login .brand h1 {
+	width: 218px;
+	height: 81px;
+	margin: 0px auto;
+	background-image: url("../../images/login-logo-isbut.png"); 
+}
+.page-login form .form-material label {
+  font-weight: 300;
+  color: #a3afb7;
+}
+.form-material .form-control:focus ~ .floating-label, 
+.form-material .form-control.focus ~ .floating-label {
+	color: #fb4516;
+}
+.form-material .form-control, 
+.form-material .form-control:focus, 
+.form-material .form-control.focus {
+	background-image: linear-gradient(#fb4516, #fb4516), linear-gradient(#e0e0e0, #e0e0e0);
+}
+.checkbox-primary input[type="checkbox"]:checked + label::before, 
+.checkbox-primary input[type="radio"]:checked + label::before {
+	background-color: #fb4516;
+	border-color: #fb4516;
+}
+.page-login .page-copyright {
+  color: #ffffff;
+}
+
+/* Overlay */
+
+.loader-overlay {
+	background: #f6f6f6;
+}
+.loader-content h2 {
+	color: #bbbbbb;
+}
+.loader-index {
+	color: #bbbbbb !important;
+}
+
+/* CABECERA */
+
+.site-navbar {
+	background-color: #fb4516;
+}
+.navbar-brand a {
+	color: #ffffff;
+}
+.navbar-brand a:hover {
+	color: #ffffff;
+}
+.navbar-brand a .navbar-brand-img {
+	width: 40px;
+	height: 33px;
+	margin-top: 10px;
+	background-image: url("../../images/logo-small-isbut.png");
+}
+.navbar-brand a .navbar-brand-text {
+	width: 162px;
+	height: 49px;
+	margin-top: 0px;
+	background-image: url("../../images/logo-app-isbut.png");
+}
+
+/* Tablas / Footable */
+
+.footable .pagination > .active > a, 
+.footable .pagination > .active > a:focus, 
+.footable .pagination > .active > a:hover, 
+.footable .pagination > .active > span, 
+.footable .pagination > .active > span:focus, 
+.footable .pagination > .active > span:hover {
+	background-color: #fb4516;
+	border-color: #fb4516;
+}
+
+/* screeLock */
+
+div.screenLock {
+	background: rgba(0,0,0,.4);
+}
+div.screenLock p {
+	color: white;
+}
